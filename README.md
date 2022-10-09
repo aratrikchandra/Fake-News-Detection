@@ -1,18 +1,18 @@
 # Fake-News-Detection-Using-NLTK
-The project is dividee in to wtoe steps:
+The project is divided in tow steps:
 1. Train machine learning model
 2. Deploy the model using Flask APP
 
 **Prerequisite:**
-Make sure you have already installed Flask, nltk, python ,sklearn and all necessary libraires
+First we have to install Flask, nltk, python ,sklearn and all necessary libraires
 
 **Hyperparameters with GridSearchCV :**
 
-Hyperparameters are the variables that the user specify usually while building the Machine Learning model. thus, hyperparameters are specified before specifying the parameters or we can say that hyperparameters are used to evaluate optimal parameters of the model.
+Hyperparameters are the variables that the user specify usually while building the Machine Learning model. Thus, hyperparameters are specified before specifying the parameters or we can say that hyperparameters are used to evaluate optimal parameters of the model.
 
 **GridSearchCV**
 
-We know what hyperparameters are, our goal should be to find the best hyperparameters values to get the perfect prediction results from our model.  But the question arises, how to find these best sets of hyperparameters? One can try the Manual Search method, by using the hit and trial process and can find the best hyperparameters which would take huge time to build a single model.
+We know what hyperparameters are,so now our goal should be to find the best hyperparametric values to get the perfect prediction results from our model.  But the question arises, how to find these best sets of hyperparameters? One can try the Manual Search method, by using the hit and trial process and can find the best hyperparameters which would take huge time to build a single model.
 
 For this reason, methods like Random Search, GridSearch were introduced. Here, we will discuss how Grid Seach is performed and how it is executed with cross-validation in GridSearchCV.
 
